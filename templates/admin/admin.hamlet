@@ -1,0 +1,61 @@
+$maybe email <- usuario
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        <label class="logo">Retratech</label>
+        <ul>
+            <li>
+                <a href="/">
+                    Home
+            <li>
+                <a href=@{ListaServR}>
+                    Solicitar Sessão
+            <li>
+                <a href=@{SobreR}>
+                    Sobre
+            <li>
+                <a href=@{ContatoR}>
+                    Contato
+            <li>
+                <form action=@{SairR} method=post>
+                    <input type="submit" value="Sair">
+    <div classname="container">
+        <label class="labeladmin">
+            Cadastrar nova sessão de fotos:
+        <a href=@{ServicoR}>
+            Cadastrar
+        <br>
+        <label class="labeladmin">
+            Visualizar a lista de serviços cadastrados:
+        <a href=@{ListaServAdminR}>
+            Visualizar
+        <br>
+        <label class="labeladmin">
+            Visualizar a lista de serviços solicitados:
+        <a href=@{ServSolicAdminR}>
+            Visualizar
+$nothing
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        <label class="logo">Retratech</label>
+        <ul>
+            <li>
+                <a href="/">
+                    Home
+            <li>
+                <a href=@{SobreR}>
+                    Sobre
+            <li>
+                <a href=@{ContatoR}>
+                    Contato
+            <li>
+                <a href=@{AutentiR}>
+                    Login
+            <li>
+                <a href=@{LogaR}>
+                    Cadastre-se
+    <div classname="contato">
+            

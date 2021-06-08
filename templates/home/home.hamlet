@@ -1,0 +1,76 @@
+$maybe email <- usuario
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars">
+        <label class="logo">Retratech
+        <ul>
+            <li>
+                <a href="/">
+                    Home
+            <li>
+                <a href=@{ListaServR}>
+                    Solicitar Sessão
+            <li>
+                <a href=@{SobreR}>
+                    Sobre
+            <li>
+                <a href=@{ContatoR}>
+                        Contato
+            <li>
+                <form action=@{SairR} method=post>
+                    <input type="submit" value="Sair">
+    <div class="container">
+        <h1>
+            Seja bem-vindo ao site Retratech
+        <p>
+            Obrigado por logar em nosso site!! De uma olhada no nosso trabalho e requisite nosso serviço se for do seu agrado!
+    <section class="gridbox">
+        <img class="foto" src=@{StaticR img_foto1_jpg}>
+        <img class="foto" src=@{StaticR img_foto2_jpg}>
+        <img class="foto" src=@{StaticR img_foto3_jpg}>
+        <img class="foto" src=@{StaticR img_foto4_jpg}>
+        <img class="foto" src=@{StaticR img_foto5_png}>
+        <img class="foto" src=@{StaticR img_foto6_jpg}>
+        <img class="foto" src=@{StaticR img_foto7_jpg}>
+        <img class="foto" src=@{StaticR img_foto8_jpg}>
+        <img class="foto" src=@{StaticR img_foto9_jpg}>
+$nothing
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        <label class="logo">Retratech</label>
+        <ul>
+            <li>
+                <a href="/">
+                    Home
+            <li>
+                <a href=@{SobreR}>
+                    Sobre
+            <li>
+                <a href=@{ContatoR}>
+                    Contato
+            <li>
+                <a href=@{AutentiR}>
+                    Login
+            <li>
+                <a href=@{LogaR}>
+                    Cadastre-se
+    <div class="container">
+            <h1>
+                Seja bem-vindo ao site Retratech
+            <p>
+                Cadastre-se e logue para desfrutar dos serviços do site
+    <section class="gridbox">
+        <img class="foto" src=@{StaticR img_foto1_jpg}>
+        <img class="foto" src=@{StaticR img_foto2_jpg}>
+        <img class="foto" src=@{StaticR img_foto3_jpg}>
+        <img class="foto" src=@{StaticR img_foto4_jpg}>
+        <img class="foto" src=@{StaticR img_foto5_png}>
+        <img class="foto" src=@{StaticR img_foto6_jpg}>
+        <img class="foto" src=@{StaticR img_foto7_jpg}>
+        <img class="foto" src=@{StaticR img_foto8_jpg}>
+        <img class="foto" src=@{StaticR img_foto9_jpg}>
+
+

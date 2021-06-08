@@ -1,0 +1,17 @@
+Host
+ec2-3-234-85-177.compute-1.amazonaws.com
+Database
+dcjvaucld47fnt
+User
+cxrnkjlwukrepw
+Port
+5432
+Password
+3a86fd085768548f86b9a854085205a7beb475c0932211bf53d84b3a77de9dea
+URI
+postgres://cxrnkjlwukrepw:3a86fd085768548f86b9a854085205a7beb475c0932211bf53d84b3a77de9dea@ec2-3-234-85-177.compute-1.amazonaws.com:5432/dcjvaucld47fnt
+Heroku CLI
+heroku pg:psql postgresql-flexible-70641 --app projetowebhaskell
+
+
+psql -h ec2-3-234-85-177.compute-1.amazonaws.com -U cxrnkjlwukrepw -d dcjvaucld47fnt

@@ -1,0 +1,62 @@
+$maybe email <- usuario
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        <label class="logo">Retratech</label>
+        <ul>
+            <li>
+                <a href="/">
+                    Home
+            <li>
+                <a href=@{ListaServR}>
+                    Solicitar Sessão
+            <li>
+                <a href=@{SobreR}>
+                    Sobre
+            <li>
+                <a href=@{ContatoR}>
+                    Contato
+            <li>
+                <form action=@{SairR} method=post>
+                    <input type="submit" value="Sair">
+    <div class="container">
+        <h1>
+            Quem somos?
+        <br>
+        <p>
+            Somos uma equipe de desenvolvedores prestes a nos formar no curso de Analise e Desenvolvimento de Sistemas na FATEC Baixada Santista.
+            Esse site foi criado com o intuito de ajudar pessoas que querem expor seus trabalhos de fotografia e tambem para os que apenas querem ter uma exposição
+            publica de imagens que lhes convém.
+            Esperamos que façam bom uso!
+$nothing
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        <label class="logo">Retratech</label>
+        <ul>
+            <li>
+                <a href="/">
+                    Home
+            <li>
+                <a href=@{SobreR}>
+                    Sobre
+            <li>
+                <a href=@{ContatoR}>
+                    Contato
+            <li>
+                <a href=@{AutentiR}>
+                    Login
+            <li>
+                <a href=@{LogaR}>
+                    Cadastre-se
+    <div class="container">
+        <h1>
+            Quem somos?
+        <br>
+        <p>
+            Somos uma equipe de desenvolvedores prestes a nos formar no curso de Analise e Desenvolvimento de Sistemas na FATEC Baixada Santista.
+            Esse site foi criado com o intuito de ajudar pessoas que querem expor seus trabalhos de fotografia e tambem para os que apenas querem ter uma exposição
+            publica de imagens que lhes convém.
+            Esperamos que façam bom uso!

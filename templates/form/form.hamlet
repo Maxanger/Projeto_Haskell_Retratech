@@ -1,0 +1,26 @@
+<nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        <label class="logo">Minha Logo</label>
+        <ul>
+            <li>
+                <a href=@{SobreR}>
+                    Sobre
+            <li>
+                <a href=@{ContatoR}>
+                    Contato
+            <li>
+                <a href=@{AutentiR}>
+                    Login
+            <li>
+                <a href=@{LogaR}>
+                    Cadastre-se
+
+$maybe mensa <- msg
+            <div class="container">
+                ^{mensa}
+<div class="centraliza">                
+    <form method=post action=@{rota}>
+        ^{widget}
+        <input type="submit" value=#{m}>

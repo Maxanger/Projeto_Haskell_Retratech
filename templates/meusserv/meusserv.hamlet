@@ -1,0 +1,50 @@
+<nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    <label class="logo">Retratech</label>
+    <ul>
+        <li>
+            <a href="/">
+                Home
+        <li>
+            <a href=@{ListaServR}>
+                Solicitar Sessão
+        <li>
+            <a href=@{SobreR}>
+                Sobre
+        <li>
+            <a href=@{ContatoR}>
+                Contato
+        <li>
+            <form action=@{SairR} method=post>
+                <input type="submit" value="Sair">
+<div class="container">
+    <h1>SERVICOS SOLICITADOS POR #{usuarioNome usuario}
+    <table border=1>
+        <thead>
+            <tr>
+                <th>
+                    Nome do Solicitante:
+                <th>
+                    Nome da Sessão:
+                <th>
+                    Quantidade de fotos:
+                <th>
+                    Observação:
+                <th>
+                    Endereco:
+        <tbody>
+            $forall (Entity _ servico, Entity _ solicserv, Entity _ _) <- tudo
+                <tr>
+                    <td>
+                        #{usuarioNome usuario} #{usuarioSobrenome usuario}
+                    <td>
+                        #{servicoNome servico}
+                    <td>
+                        #{servicoQtd_fotos servico}
+                    <td>
+                        #{solicServObserv solicserv}
+                    <td>
+                        #{solicServEndereco solicserv}
+                    

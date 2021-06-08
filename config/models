@@ -1,0 +1,27 @@
+Loga
+    email Text
+    senha Text
+    UniqueEmail email
+    deriving Show
+
+Usuario
+    nome Text
+    sobrenome Text
+    email Text
+    cpf Text
+    telefone Text
+    endereco Text
+    deriving Show
+
+Servico
+    nome Text
+    qtd_fotos Int
+    valor Double
+    deriving Show
+
+SolicServ
+    usuid UsuarioId
+    servid ServicoId
+    observ Text
+    endereco Text
+    deriving Show

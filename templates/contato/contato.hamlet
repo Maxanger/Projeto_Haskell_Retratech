@@ -1,0 +1,126 @@
+
+$maybe email <- usuario
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        <label class="logo">Retratech</label>
+        <ul>
+            <li>
+                <a href="/">
+                    Home
+            <li>
+                <a href=@{ListaServR}>
+                    Solicitar Sessão
+            <li>
+                <a href=@{SobreR}>
+                    Sobre
+            <li>
+                <a href=@{ContatoR}>
+                    Contato
+            <li>
+                <form action=@{SairR} method=post>
+                    <input type="submit" value="Sair">
+    <div classname="contato">
+                <h1>
+                    Nosso contato:
+                <table border=1>
+                    <thead>
+                        <tr>
+                            <th>
+                                Meio de Contato
+                            <th>
+                                Link
+                    <tbody>
+                        <tr>
+                            <td>
+                                Email
+                            <td>
+                                email@email.com
+                        <tr>
+                            <td>
+                                Facebook
+                            <td>
+                                <a href="https://www.facebook.com/" target="blank">
+                                    Acessar
+                        <tr>
+                            <td>
+                                Twitter
+                            <td>
+                                <a href="https://twitter.com/login?lang=pt" target="blank">
+                                    Acessar
+                        <tr>
+                            <td>
+                                Instagram
+                            <td>
+                                <a href="https://www.instagram.com/" target="blank">
+                                    Acessar
+                        <tr>
+                            <td>
+                                LinkedIn
+                            <td>
+                                <a href="https://br.linkedin.com/" target="blank">
+                                    Acessar
+$nothing
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        <label class="logo">Retratech</label>
+        <ul>
+            <li>
+                <a href="/">
+                    Home
+            <li>
+                <a href=@{SobreR}>
+                    Sobre
+            <li>
+                <a href=@{ContatoR}>
+                    Contato
+            <li>
+                <a href=@{AutentiR}>
+                    Login
+            <li>
+                <a href=@{LogaR}>
+                    Cadastre-se
+    <div classname="contato">
+                <h1>
+                    Nosso contato:
+                <table border=1>
+                    <thead>
+                        <tr>
+                            <th>
+                                Meio de Contato
+                            <th>
+                                Link
+                    <tbody>
+                        <tr>
+                            <td>
+                                Email
+                            <td>
+                                email@email.com
+                        <tr>
+                            <td>
+                                Facebook
+                            <td>
+                                <a href="https://www.facebook.com/" target="blank">
+                                    Acessar
+                        <tr>
+                            <td>
+                                Twitter
+                            <td>
+                                <a href="https://twitter.com/login?lang=pt" target="blank">
+                                    Acessar
+                        <tr>
+                            <td>
+                                Instagram
+                            <td>
+                                <a href="https://www.instagram.com/" target="blank">
+                                    Acessar
+                        <tr>
+                            <td>
+                                LinkedIn
+                            <td>
+                                <a href="https://br.linkedin.com/" target="blank">
+                                    Acessar
+            
